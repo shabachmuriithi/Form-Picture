@@ -1,0 +1,111 @@
+  @import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
+
+  .body {
+    background-color: rgb(240, 225, 227);
+  }
+
+   .name {
+    display: flex;
+  }
+
+  .name input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .image-container {
+    border-right: solid 1px purple;
+    margin-right: 1cm;
+    padding-right: 2cm;
+    height: 600px;
+  }
+
+  .image-container h1 {
+    font-family: "poppins";
+    color: rgb(110, 11, 110);
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px;
+    font-family: "poppins";
+  }
+
+    .hr-lines {
+      position: relative;
+      max-width: 500px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    .hr-lines:before {
+      content: " ";
+      height: 1px;
+      width: 210px;
+      background: grey;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      opacity: 50%;
+    }
+    .hr-lines:after {
+      content: " ";
+      height: 1px;
+      width: 210px;
+      background: grey;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      opacity: 50%;
+    }
+
+  #sign-in a {
+    text-decoration: none;
+    color: rgb(110, 11, 110);
+    font-weight: bold;
+     }
+
+  #email {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #password {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #submit_button {
+    width: 105%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(110, 11, 110);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .icons{
+    gap: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  #sign-in{
+    text-align: center;
+  }
+  #eye_password{
+    position: absolute;
+    top: 380px;
+    right: 400px;
+  }
+  #eye_confirm{
+    position: absolute;
+    right: 400px;
+    bottom: 510px;
+  }
+  
